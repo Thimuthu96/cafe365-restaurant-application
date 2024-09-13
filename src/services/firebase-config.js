@@ -6,13 +6,7 @@ import { getAuth, signInWithEmailAndPassword, signOut } from "firebase/auth";
 import { toast } from "react-toastify";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDk7lGvPFfWl427llQStiQyF3qbkItfHQA",
-  authDomain: "cafe365-62590.firebaseapp.com",
-  projectId: "cafe365-62590",
-  storageBucket: "cafe365-62590.appspot.com",
-  messagingSenderId: "213565230742",
-  appId: "1:213565230742:web:b38265f2e03238a342fcb7",
-  measurementId: "G-2R4E62DMB2"
+  //-- firebase config removed because of security reasons
 };
 
 const app = initializeApp(firebaseConfig);
