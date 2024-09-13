@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+//NAVBAR 
+.navbar-container {
+  width: 250px;
+  height: 100vh;
+  background-color: rgba(241, 241, 241, 0.37);
+  display: flex;
+  flex-direction: column;
+  padding-top: 1.5em;
+  position: fixed;
+  
+
+  .logo-img {
+    display: flex;
+    justify-content: center;
+
+    img {
+      width: 45%;
+    }
+  }
+
+  .navigation-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: .5em;
+    padding-right: .5em;
+    padding-top: 4em;
+
+    .links {
+      text-decoration: none;
+      text-align: center;
+      border-radius: 8px;
+      padding: 8px 40px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      column-gap: 1.2em;
+      margin-bottom: .5em;
+    }
+
+    hr{
+      margin-top: 2em;
+    }
+
+  }
+
+  .calender-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    // padding-top: 22em;
+    position: absolute;
+    bottom: 2%;
+    padding-left: 2%;
+
+    img {
+      width: 65%;
+    }
+  }
+}
+
+
+//Date Widgets
+.date {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+
+//ORDERS
+.orders-container {
+  width: 100%;
+  height: auto;
+}
+
+//CART BADGE
+.cart-icon-badge{
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 100%;
+  color: #fff;
+  z-index: 1;
+  margin-bottom: -1.4em;
+  margin-left: 2.5em;
+}
+
+.card-style {
+  width: 200px;
+  height: 140px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 69, 29, 0.1);
+  border-radius: 8px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  .table-number {
+    width: 90px; 
+    height: 90px;
+    border-radius: 50%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    background-color: #F2F1F1;
+
+    h1{
+      font-size: 2rem;
+      margin: 0;
+    }
+    
+    p {
+      font-size: 0.9rem;
+      margin: 0;
+      text-align: center;
+    }
+  }
+}
+
+.helper{
+  display: flex;
+  align-items: center;
+  .boxStyle{
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+  }
+  p {
+    padding-left: 0.5rem;
+    margin: 0;
+  }
+}
